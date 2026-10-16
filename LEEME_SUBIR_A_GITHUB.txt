@@ -1,0 +1,8 @@
+SUBIR A GITHUB (importante):
+1. Extrae el ZIP. Entra a la carpeta y selecciona TODO su contenido (no la carpeta contenedora).
+2. En la raiz del repositorio deben verse: .github, index.html, css, js, wasm, lib, package.json.
+   Si no ves ".github" en la raiz, el workflow NO se ejecutara.
+3. Con Git: git init && git add -A && git commit -m "APK" && git branch -M main && git remote add origin URL && git push -u origin main
+   (git add -A incluye la carpeta oculta .github; arrastrar archivos en la web a veces la omite.)
+4. Repo > Settings > Actions > General > "Allow all actions and reusable workflows".
+5. Pestana Actions > "Construir APK de Cosmodromo" > Run workflow. APK: Artifacts > Cosmodromo-Android-APK.
